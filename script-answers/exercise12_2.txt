@@ -1,0 +1,12 @@
+Script started on 2022-08-14 15:27:26+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;akllu@Akllu: /mnt/c/Users/Akllu/Desktop/Fullstack-part12/script-answers[01;32makllu@Akllu[00m:[01;34m/mnt/c/Users/Akllu/Desktop/Fullstack-part12/script-answers[00m$ exitdocker run -it ubuntu bashexit[Kdocker run -it ubuntu bash
+[?2004h]0;root@f5ddf1e22aae: /root@f5ddf1e22aae:/# [K]0;root@f5ddf1e22aae: /root@f5ddf1e22aae:/# mkdir -p usr/src/app && touch $_/index.js
+[?2004l[?2004h]0;root@f5ddf1e22aae: /root@f5ddf1e22aae:/# [Kcd usr/src/app/
+[?2004l[?2004h]0;root@f5ddf1e22aae: /usr/src/approot@f5ddf1e22aae:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@f5ddf1e22aae: /usr/src/approot@f5ddf1e22aae:/usr/src/app# exit
+[?2004lexit
+]0;akllu@Akllu: /mnt/c/Users/Akllu/Desktop/Fullstack-part12/script-answers[01;32makllu@Akllu[00m:[01;34m/mnt/c/Users/Akllu/Desktop/Fullstack-part12/script-answers[00m$ exit
+exit
+
+Script done on 2022-08-14 15:28:09+03:00 [COMMAND_EXIT_CODE="0"]
