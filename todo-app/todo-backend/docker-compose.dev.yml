@@ -11,6 +11,7 @@ services:
       MONGO_INITDB_DATABASE: the_database
     volumes:
       - ./mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./mongo_data:/data/db
   redis: 
     image: redis
     ports:
@@ -18,7 +19,6 @@ services:
     command: ['redis-server', '--appendonly', 'yes'] # Overwrite the CMD
     volumes: # Declare the volume
       - ./redis_data:/data
-      - ./mongo_data:/data/db
   server:
     image: todo-back-dev
     build:
